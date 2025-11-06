@@ -33,6 +33,6 @@ jobs:
           context: ./src
           file: ./src/Dockerfile
           push: true
-          tags: ${{ secrets.ACR_LOGIN_SERVER }}/${{ github.repository }}:latest
+          tags: ${{ secrets.ACR_LOGIN_SERVER }}/l300agentworkshop-:latest
           labels: |
             org.opencontainers.image.source=https://github.com/${{ github.repository }}
